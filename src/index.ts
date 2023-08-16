@@ -1,0 +1,7 @@
+import './normalise.css';
+import './style.css';
+
+import App from './app/app';
+
+const app = new App();
+app.drawPage();

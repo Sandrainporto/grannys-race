@@ -1,0 +1,93 @@
+.granny-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 20px;
+    height: 181px;
+    border-bottom: 4px dashed #000;
+    padding-top: 20px;
+    background: url('../../assets/city.png') 0 0 / auto 100% repeat;
+}
+
+.granny-controllers {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 155px;
+    gap: 5px;
+}
+
+.granny-select,
+.item-remove {
+    border-radius: 5px;
+}
+
+.granny-select {
+    background: #a3eca1ab;
+}
+
+.granny-remove {
+    background: #b7a1ecab;
+}
+
+.granny-name {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: rgb(10, 143, 148);
+    border-radius: 5px;
+    background: #ffffff;
+    padding: 2px;
+}
+
+.granny-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.engine-controllers {
+    flex: 0 1 5%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-self: flex-start;
+}
+
+.granny-block {
+    flex: 0 1 100%;
+    align-self: flex-end;
+}
+
+.image-container {
+    position: relative;
+    top: 5px;
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.granny-image {
+    position: relative;
+    margin-left: -13px;
+    width: 75px;
+}
+
+.granny-image img {
+    position: absolute;
+}
+
+.finish-line {
+    flex: 0 1 30%;
+    align-self: flex-end;
+}
+
+.finish-icon {
+    position: relative;
+}
+
+.finish-icon {
+    margin-top: -15px;
+}
