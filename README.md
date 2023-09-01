@@ -2,7 +2,7 @@
 
 The **grannys-race** is a  two-paged simulated race SPA based on communication with a server (fetch, REST API). 
 
-It's a "granny's race" with one winner and updated & sorted winners table(best time(the best recorded), best results). 
+It's a "granny's race" with one winner and updated & sorted winners table(best time(the best recorded), number of wins). 
 
 It has a pagination, ability to create/delete/change selected granny, run and stop the race.               
 
